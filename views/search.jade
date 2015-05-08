@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  ul
+    each doc in results
+      li
+        h3= doc.name
+        b= doc.abv*100
+          |% Alcohol

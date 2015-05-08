@@ -1,0 +1,94 @@
+body {
+  padding: 50px;
+  font: 16px/1.5 'Libre Baskerville', Baskerville, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+  margin: 1em 0 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.highball.glass {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	max-width: 5em;
+	height: 12em;
+	border: 0.5em solid rgba(0,0,0,0.1);
+	border-top: 0 solid transparent;
+	margin: 3em;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+  -webkit-justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 0 0 0.4em 0.4em;
+}
+
+.highball.glass > section {
+	-webkit-flex: 0 0 auto;
+	width: 100%;
+  vertical-align: bottom;
+}
+
+ul.ingredients {
+	list-style: none;
+	padding: 0 0 0 1.6em;
+  margin: 0.5em 0;
+}
+
+  ul.ingredients > li {
+    margin: 0.5em 0;
+  }
+
+    ul.ingredients > li > .ingredient-name {
+      font-style: italic;
+    }
+
+    ul.ingredients > li .ingredient-colour-code {
+      display: inline-block;
+      width: 0.6em;
+      height: 0.6em;
+      vertical-align: middle;
+      margin: 0 0.5em 0 -1.1em;
+    }
+
+    ul.ingredients > li > .ingredient-amount {
+      font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
+      color: #330000;
+      line-height: 1;
+      display: inline-block;
+      background-color: #eee;
+      border-radius: 0.25em;
+      padding: 0.25em;
+    }

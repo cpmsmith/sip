@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.highball.glass
+    each ingredient in drink.ingredients
+      section(style='background-color:'+ingredient.colour+';height:'+ingredient.amount.number+'em')
+  h1= drink.name
+  ul.ingredients
+    each ingredient in drink.ingredients
+      li
+        div.ingredient-name
+          div.ingredient-colour-code(style='background-color:'+ingredient.colour)
+          | #{ingredient.name}
+        div.ingredient-amount= ingredient.amount.number+ingredient.amount.unit

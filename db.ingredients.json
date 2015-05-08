@@ -1,0 +1,80 @@
+{
+    "_id": "554a991462097fb0ba3afdf4",
+    "name": "Orange Juice",
+    "abv": 0,
+    "colour": "#d97004"
+} {
+    "_id": "554a99d862097fb0ba3afdf7",
+    "name": "Dubonnet",
+    "abv": 0.15,
+    "colour": "#41010f"
+} {
+    "_id": "554a9f2662097fb0ba3afdf9",
+    "name": "Dry Vermouth",
+    "abv": 0.18,
+    "brands": [{
+        "name": "Martini",
+        "abv": 0.18
+    }, {
+        "name": "Dolin",
+        "abv": 0.175
+    }, {
+        "name": "Stock",
+        "abv": 0.16
+    }],
+    "colour": "#d1d493"
+} {
+    "_id": "554a995162097fb0ba3afdf5",
+    "name": "Vodka",
+    "abv": 0.4,
+    "brands": [{
+        "name": "Absolut",
+        "abv": 0.4
+    }, {
+        "name": "Smirnoff",
+        "abv": 0.4
+    }, {
+        "name": "Tag No. 5",
+        "abv": 0.4
+    }, {
+        "name": "Iceberg",
+        "abv": 0.4
+    }],
+    "colour": "#2266bb"
+} {
+    "_id": "554a99bf62097fb0ba3afdf6",
+    "name": "Gin",
+    "abv": 0.4,
+    "brands": [{
+        "name": "Tanqueray",
+        "abv": 0.4
+    }, {
+        "name": "Beefeater",
+        "abv": 0.4
+    }, {
+        "name": "Gordon's",
+        "abv": 0.4
+    }, {
+        "name": "Tanqueray No. Ten",
+        "abv": 0.473
+    }],
+    "colour": "#67b15f"
+} {
+    "_id": "554a9f1e62097fb0ba3afdf8",
+    "name": "Sweet Vermouth",
+    "abv": 0.15,
+    "brands": [{
+        "name": "Cinzano",
+        "abv": 0.15
+    }, {
+        "name": "Martini",
+        "abv": 0.15
+    }, {
+        "name": "Stock",
+        "abv": 0.16
+    }, {
+        "name": "Dolin",
+        "abv": 0.16
+    }],
+    "colour": "#af4e5b"
+}

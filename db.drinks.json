@@ -1,0 +1,35 @@
+{
+    "_id": "554adc7b62097fb0ba3afdfa",
+    "name": "Screwdriver",
+    "ingredients": [{
+        "id": "554a995162097fb0ba3afdf5",
+        "amount": {
+            "number": 3,
+            "unit": "oz"
+        }
+    }, {
+        "id": "554a991462097fb0ba3afdf4",
+        "amount": {
+            "number": 6,
+            "unit": "oz"
+        }
+    }],
+    "urlsafename": "screwdriver"
+} {
+    "_id": "554afc577e4188a3dd251b7d",
+    "name": "Dubonnet & Gin",
+    "ingredients": [{
+        "id": "554a99d862097fb0ba3afdf7",
+        "amount": {
+            "number": 3,
+            "unit": "oz"
+        }
+    }, {
+        "id": "554a99bf62097fb0ba3afdf6",
+        "amount": {
+            "number": 1.5,
+            "unit": "oz"
+        }
+    }],
+    "urlsafename": "dubonnet+gin"
+}
